@@ -36,7 +36,7 @@ a:hover {
 
 .site-footer {
   background-image: linear-gradient(#000000, rgb(37, 1, 23));
-  padding: 20px 0;
+  padding: 50px 0;
 }
 
 .jumbotron {
@@ -58,12 +58,31 @@ a:hover {
 
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5);
-}
-
-.carousel {
+  max-width: 100%;
+  width: 100%;
+  left: 0;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .btn {
   background-color: #220707;
   font-size: 1rem;
+}
+
+.btn-info {
+  color: #fff;
+  background-color: #220707;
+  border-color: #17a2b8;
+}
+
+.carousel-item {
+  height: 800px;
+}
+
+.carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 800px;
 }
