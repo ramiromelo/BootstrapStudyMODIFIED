@@ -1,14 +1,18 @@
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
-  font-family: "Roboto", cursive;
+h5 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 6px;
 }
 
 h4 {
@@ -21,7 +25,9 @@ header h4 {
 
 h5,
 h6 {
+  font-family: "Montserrat", sans-serif;
   color: white;
+  font-weight: 300;
 }
 
 header h6 {
@@ -34,8 +40,12 @@ a:hover {
   text-decoration: none;
 }
 
+p {
+  color: #373641;
+}
+
 .site-footer {
-  background-image: linear-gradient(#000000, rgb(37, 1, 23));
+  background-image: linear-gradient(#000000, rgb(54, 1, 34));
   padding: 50px 0;
 }
 
@@ -65,6 +75,10 @@ a:hover {
   padding-right: 100px;
 }
 
+.carousel-caption p {
+  color: #a7a7be;
+}
+
 .btn {
   background-color: #220707;
   font-size: 1rem;
@@ -77,12 +91,16 @@ a:hover {
 }
 
 .carousel-item {
-  height: 800px;
+  height: 700px;
 }
 
 .carousel-item img {
   position: absolute;
   top: 0;
   left: 0;
-  min-height: 800px;
+  min-height: 700px;
+}
+
+.bg-info {
+  background-color: #5b1464;
 }
